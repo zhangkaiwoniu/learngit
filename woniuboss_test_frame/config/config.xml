@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <browser>1</browser><!--浏览器类型：1-firefox,2-chrome,3-IE-->
+    <type>interface</type><!--测试类型：gui-GUI测试,interface-接口测试-->
+    <username>WNCD000</username><!--用户名-->
+    <password>woniu123</password><!--密码-->
+    <verifycode>0000</verifycode><!--验证码-->
+    <host>http://zhangkai</host><!--访问主机名-->
+    <port>:8080</port><!--访问端口-->
+    <path>D:\pythonProjects\woniuboss_test_frame</path><!--项目存放路径-->
+    <mail_from>000000@qq.com</mail_from><!--发信邮箱-->
+    <mail_to>000000@qq.com,000000@qq.com</mail_to><!--收信邮箱，以英文逗号分隔-->
+    <authorize>elkthgafvxezheff</authorize><!--授权码-->
+    <data_name>D:\pythonProjects\woniuboss_test_frame\data\data.xls</data_name><!--数据文件存放路径-->
+    <time>12_00</time> <!--定时器时间，格式xx_xx-->
+</config>

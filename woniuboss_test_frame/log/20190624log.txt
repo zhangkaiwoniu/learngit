@@ -1,0 +1,65 @@
+
+时间:20190624210422
+Traceback (most recent call last):
+  File "D:\pythonProjects\woniuboss_test_frame\common\public\public_assert.py", line 25, in assert_method
+    testCase.assertIn(actual,hope,"断言失败")
+  File "D:\pythonfiles\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\pythonfiles\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"totalRow":0,"pageNumber":1,"firstPage":true,"lastPage":true,"totalPage":0,"pageSize":10,"list":[]}' not found in 'totalRow' : 断言失败
+
+时间:20190624210422
+Traceback (most recent call last):
+  File "D:\pythonProjects\woniuboss_test_frame\common\public\public_assert.py", line 25, in assert_method
+    testCase.assertIn(actual,hope,"断言失败")
+  File "D:\pythonfiles\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\pythonfiles\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '{"totalRow":0,"pageNumber":1,"firstPage":true,"lastPage":true,"totalPage":0,"pageSize":20,"list":[]}' not found in 'totalRow' : 断言失败
+
+时间:20190624210422
+Traceback (most recent call last):
+  File "D:\pythonProjects\woniuboss_test_frame\common\public\public_assert.py", line 23, in assert_method
+    testCase.assertEqual(actual,hope,"断言失败")
+  File "D:\pythonfiles\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\pythonfiles\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\pythonfiles\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '程序异常,请联系技术人员.' != '处理完毕.'
+- 程序异常,请联系技术人员.
++ 处理完毕.
+ : 断言失败
+
+时间:20190624210614
+Traceback (most recent call last):
+  File "D:\pythonProjects\woniuboss_test_frame\common\public\public_assert.py", line 23, in assert_method
+    testCase.assertEqual(hope,actual,"断言失败")
+  File "D:\pythonfiles\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\pythonfiles\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\pythonfiles\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '[]' != '[{"phase_exam_id":799,"phase":"公共基础阶段","sc[110 chars]6"}]'
+- []
++ [{"phase_exam_id":799,"phase":"公共基础阶段","score":"66","update_time":"","create_time":"","phase_exam_student_id":1252,"operator_id":"WNCD000","comment":"666"}]
+ : 断言失败
+
+时间:20190624210614
+Traceback (most recent call last):
+  File "D:\pythonProjects\woniuboss_test_frame\common\public\public_assert.py", line 23, in assert_method
+    testCase.assertEqual(hope,actual,"断言失败")
+  File "D:\pythonfiles\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\pythonfiles\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\pythonfiles\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '处理完毕.' != '程序异常,请联系技术人员.'
+- 处理完毕.
++ 程序异常,请联系技术人员.
+ : 断言失败
